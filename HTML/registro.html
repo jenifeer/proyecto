@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="../CSS/registro.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.min.css">
+</head>
+<body style="background-color:#5E9AF4;">
+    <nav class="barra">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"> </i>
+        </label>
+        <label class="logo"> </label>
+        <ul>
+            <li> <a href="../HTML/login.html"> Inicio</a> </li>
+            <li> <a href="#"> Contacto</a> </li>
+        </ul>
+    </nav>
+        <div class="container">
+        <div class="row">
+        <div class="col align-self-center">
+         <form action="">
+             <h2>REGISTRO</h2>
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="apellido"placeholder="Apellido" required>
+            <input type="email" name="correo" placeholder="Correo electronico" required>
+            <input type="password" name="pass" placeholder="Contraseña" required>
+            <select class="ListaComunas" name="comuna" id="comunas">
+                <option value="Osorno">Osorno</option>
+                <option value="Puerto Montt">Puerto Montt</option>
+            </select>
+            <input type="submit" class="BotonReg"value="Registrarse">
+
+         </form>   
+        </div>
+        </div>   
+        </div>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js%22%3E"></script>
+</body>
+</html>

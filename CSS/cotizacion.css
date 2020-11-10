@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* LETRAS DEL CUERPO */
+body{background-color: #1877F2;}
+
+/* COLOR Y TAMAÑO NAV CABECERA */
+.barra {
+    background: #1877F2;
+    height: 80px;
+    width: 100%;
+}
+
+/* DETALLES TITULO LOGO (MAIPO GRANDE) */
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+/* UBICACION DE LA LISTA UL */ 
+.barra ul {
+    float: right;
+    margin-right: 20px;
+}
+
+/* DETALLES LISTA LI Y UBICACION EN LINEA DEL NAV EN CABECERA*/
+.barra ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+/* DETALLES HIPERVINCULOS DE LISTAS */
+.barra ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* INTERACCION CON LOS ELEMENTOS DE LA LISTA */
+a.active, a:hover {
+    background:  #1877F2;
+    transition: .5s;
+}
+
+/* CLASS PARA DETALLES DEL ICONO DE BARRA DE MENU*/
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+/* ID CHECKBOX PARA QUE QUEDE "INVISIBLE" */
+#check {
+    display: none;
+}
+
+/* APLICAR DIFERENTES ESTILOS EN BASE A UNA CONSULTA (TAMAÑO) */
+@media screen and (max-width: 952px) {
+    .barra.label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    .barra ul li a{
+        font-size: 16px;
+    }
+}
+
+/* APLICAR DIFERENTES ESTILOS EN BASE A UNA CONSULTA (TAMAÑO) */
+@media screen and (max-width: 858px) {
+    
+    .checkbtn {
+        display: block;
+    }
+}
+form{
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    padding: 16px;
+    margin-top: 80px;
+    font-family: "Raleway", Sans-serif;
+}
+form input[type="email"],
+form input[type="password"],
+form input[type="text"]{
+    width: 300px;
+    padding: 3px 10px;
+    display: inline-block;
+    border: #1877F2 2px solid;
+    border-radius:28px;
+    text-align: left;
+    font-family: "Raleway", Sans-serif;
+
+}
+.Texto{
+    font-family: "Raleway", Sans-serif;
+        color: white;
+        display: inline-block;
+        width: 210px;
+}
+.BarraBusqueda{
+    width: 500px;
+    padding: 3px 10px;
+    display: inline-block;
+    border: #1877F2 2px solid;
+    border-radius:28px;
+    text-align: left;
+    font-family: "Raleway", Sans-serif;
+    margin-top: 20px;
+    margin-left: 35px;
+    
+
+    
+}
+.ImagenLupa{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 100px;
+}
+
+.BotonC{
+    width: 50%;
+    padding: 4px 15px;
+    display: block;
+    border: #1877F2 2px solid;
+    border-radius:28px;
+    background-color: #1877F2;
+    font-family: "Raleway", Sans-serif;
+    color: white;
+    margin-top: 20px;
+    margin-left:100px;
+}
+.ImgUser{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-left: 140px;
+
+}
+.ImgFono{
+    width: 40px;
+    height: 40px;
+    margin-left: 160px;
+}
+.ImgCorreo{
+    width: 40px;
+    height: 40px;
+    margin-left: 160px;
+}
+.FormContacto{
+    width: 400px;
+    height: 400px;
+    margin-left: 200px;
+    margin-top:100px;
+    padding: 16px;
+    font-family: "Raleway", Sans-serif;
+    background-color: white;
+    opacity: 70%;
+    border-radius: 25px;
+}
+.TextoT{
+    font-family: "Raleway", Sans-serif;
+    color: #1877F2;
+    margin-left: 120px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.TextoFono{
+    font-family: "Raleway", Sans-serif;
+    color: #1877F2;
+    margin-left:148px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.TextoFono2{
+    font-family: "Raleway", Sans-serif;
+    color: #1877F2;
+    margin-left: 128px;
+    font-weight: bold;
+
+    
+}
+.TextoMsg{
+    font-family: "Raleway", Sans-serif;
+    color: #1877F2;
+    margin-left:152px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+.TextoMsg2{
+    font-family: "Raleway", Sans-serif;
+    color: #1877F2;
+    margin-left:90px;
+    font-weight: bold;
+    
+}

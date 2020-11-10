@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="../CSS/cotizacion.css" >
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.min.css">
+</head>
+<body style="background-color:#5E9AF4;">
+    <nav class="barra">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"> </i>
+        </label>
+        <img class="ImagenLupa"src="../IMG/lupa.png"><input type="text" class="BarraBusqueda" placeholder="Buscador">
+        <ul>
+            <li> <a href="#"> Inicio</a> </li>
+            <li> <a href="#"> Contacto</a> </li>
+            <li> <a href="#">Cotización</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="align-self-end">
+                <form action="">
+                    <p class="Texto">Metros cuadrado casa:</p><input type="text" name="MCuadrados" required> 
+                    <p class="Texto">Cantidad de radiadores:</p><input type="text" name="CRadiadores" required>
+                    <p class="Texto">Cantidad de habitaciones:</p><input type="text" name="CHabitaciones" required>
+                    <p class="Texto">Numero a contactar:</p><input type="text" name="NumeroContacto" required>
+                    <p class="Texto">Correo electronico:</p><input type="email" name="CorreoElec" required>
+                    <p class="Texto">Region:</p><input type="text" name="Region" required>
+                    <p class="Texto">Ciudad:</p><input type="text" name="Ciudad" required>
+                    <input type="submit" class="BotonC" value="Enviar Cotización">
+
+                </form>
+            </div>
+            <div class="col col-lg-2"> 
+               
+                <form class="FormContacto"action="">
+                    <img src="../IMG/user.png" class="ImgUser">
+                    <p class="TextoT">Francisco Salas</p>
+                    <img src="../IMG/telefono.png" class="ImgFono">
+                    <p class="TextoFono">Telefono</p>
+                    <p class="TextoFono2">+56900000000</p>
+                    <img src="../IMG/correo.png" class="ImgCorreo">
+                    <p class="TextoMsg">Correo</p>
+                    <p class="TextoMsg2">FranciscoSalas@gmail.com</p>
+                </form>
+            </div>
+        </div>                      
+    </div>
+    
+</body>
+</html>
