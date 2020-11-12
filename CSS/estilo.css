@@ -48,11 +48,13 @@ label.logo {
     border-radius: 3px;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 /* INTERACCION CON LOS ELEMENTOS DE LA LISTA */
 a.active, a:hover {
-    background:  #1877F2;
+    background-image: linear-gradient(0, #5E9AF4, #5E9AF4);
+    text-decoration: none;
     transition: .5s;
 }
 
@@ -156,6 +158,11 @@ form input[type="password"]{
     color: white;
     margin-left: 128px;
     margin-top:30px;
+    cursor: pointer;
+    background-image: linear-gradient(0, #5E9AF4, #5E9AF4);
+    background-size: 0;
+    transition: .8s;
+    background-repeat: no-repeat;
 }
 .BotonR{
     width: 50%;
@@ -168,5 +175,26 @@ form input[type="password"]{
     font-family: "Raleway", Sans-serif;
     color: white;
     margin-left: 128px;
+    cursor: pointer;
+    background-image: linear-gradient(0, #5E9AF4, #5E9AF4);
+    background-size: 0;
+    transition: .8s;
+    text-decoration: none;
+    background-repeat: no-repeat;
+    
 }
+.BotonIS:hover{
+    background-size: 100%;
+    color: #fff;
+}
+.BotonR:hover{
+    background-size: 100%;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
 
