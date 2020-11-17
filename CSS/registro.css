@@ -6,17 +6,17 @@
     box-sizing: border-box;
 }
 
-/* LETRAS DEL CUERPO */
+
 body{background-color: #1877F2;}
 
-/* COLOR Y TAMAÑO NAV CABECERA */
+
 .barra {
     background: #1877F2;
     height: 80px;
     width: 100%;
 }
 
-/* DETALLES TITULO LOGO (MAIPO GRANDE) */
+
 label.logo {
     color: white;
     font-size: 35px;
@@ -25,20 +25,20 @@ label.logo {
     font-weight: bold;
 }
 
-/* UBICACION DE LA LISTA UL */ 
+
 .barra ul {
     float: right;
     margin-right: 20px;
 }
 
-/* DETALLES LISTA LI Y UBICACION EN LINEA DEL NAV EN CABECERA*/
+
 .barra ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
 
-/* DETALLES HIPERVINCULOS DE LISTAS */
+
 .barra ul li a {
     color: white;
     font-size: 17px;
@@ -49,14 +49,14 @@ label.logo {
     text-decoration: none;
 }
 
-/* INTERACCION CON LOS ELEMENTOS DE LA LISTA */
+
 a.active, a:hover {
     transition: .5s;
     background-image: linear-gradient(0, #5E9AF4, #5E9AF4);
     text-decoration: none;
 }
 
-/* CLASS PARA DETALLES DEL ICONO DE BARRA DE MENU*/
+
 .checkbtn {
     font-size: 30px;
     color: white;
@@ -67,12 +67,12 @@ a.active, a:hover {
     display: none;
 }
 
-/* ID CHECKBOX PARA QUE QUEDE "INVISIBLE" */
+
 #check {
     display: none;
 }
 
-/* APLICAR DIFERENTES ESTILOS EN BASE A UNA CONSULTA (TAMAÑO) */
+
 @media screen and (max-width: 952px) {
     .barra.label.logo {
         font-size: 30px;
@@ -84,7 +84,7 @@ a.active, a:hover {
     }
 }
 
-/* APLICAR DIFERENTES ESTILOS EN BASE A UNA CONSULTA (TAMAÑO) */
+
 @media screen and (max-width: 858px) {
     
     .checkbtn {

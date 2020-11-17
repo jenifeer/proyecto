@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="../CSS/contacto.css" >
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap.min.css">
+</head>
+<body style="background-color: #5E9AF4;">
+    <nav class="barra">
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"> </i>
+        </label>
+        <ul>
+            <li> <a href="../HTML/login.html"> Inicio</a> </li>
+            <li> <a href="../HTML/contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <img src="../IMG/banner.jpg" class="Banner">
+    <p class="TextoBanner">Contacto</p>
+    <div class="container">
+        <div class="row">
+            <div class="align-self-end">
+                <form class="FormContacto"action="">
+                    <img src="../IMG/user.png" class="ImgUser">
+                    <p class="TextoT">Francisco Salas</p>
+                    <img src="../IMG/telefono.png" class="ImgFono">
+                    <p class="TextoFono">Telefono</p>
+                    <p class="TextoFono2">+56900000000</p>
+                    <img src="../IMG/correo.png" class="ImgCorreo">
+                    <p class="TextoMsg">Correo</p>
+                    <p class="TextoMsg2">FranciscoSalas@gmail.com</p>
+                </form>
+            </div>
+            <div class="col col-lg-2">
+               <form action="">
+                   <h2>Contactanos</h2>
+                   <input type="text" name="Nombre" required placeholder="Nombre">
+                   <input type="email" name="Correo" required placeholder="Email">
+                   <input type="text" name="telefono" required placeholder="Celular">
+                   <input type="text" name="asunto" required placeholder="Asunto">
+                   <textarea style=" margin-left: 300px;
+                   margin-top: 7px;" name="mensaje" id="" cols="37" rows="10" placeholder="Mensaje"></textarea>
+                   <input type="submit" class="BotonE" value="Enviar">
+               </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

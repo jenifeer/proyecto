@@ -1,13 +1,11 @@
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0%;
+    margin: 0%;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
 
-
-body{background-color: #1877F2;}
 
 
 .barra {
@@ -29,6 +27,7 @@ label.logo {
 .barra ul {
     float: right;
     margin-right: 20px;
+    margin-top: 0px;
 }
 
 
@@ -36,6 +35,7 @@ label.logo {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
+    margin-top: 0px;
 }
 
 
@@ -47,6 +47,7 @@ label.logo {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    margin-top: 0px;
 }
 
 
@@ -54,6 +55,7 @@ a.active, a:hover {
     transition: .5s;
     text-decoration: none;
     background-image: linear-gradient(0, #5E9AF4, #5E9AF4);
+    margin-top: 0px;
 }
 
 
@@ -65,6 +67,7 @@ a.active, a:hover {
     margin-right: 40px;
     cursor: pointer;
     display: none;
+    margin-top: 0px;
 }
 
 
@@ -91,103 +94,31 @@ a.active, a:hover {
         display: block;
     }
 }
-form{
-    width: 550px;
-    height: 500px;
-    margin: auto;
-    padding: 16px;
-    margin-top: 80px;
-    font-family: "Raleway", Sans-serif;
-}
-form input[type="email"],
-form input[type="password"],
-form input[type="text"]{
-    width: 300px;
-    padding: 3px 10px;
-    display: inline-block;
-    border: #1877F2 2px solid;
-    border-radius:28px;
-    text-align: left;
-    font-family: "Raleway", Sans-serif;
+.Banner{
+    width: 100%;   
 
 }
-.Texto{
-    font-family: "Raleway", Sans-serif;
-        color: white;
-        display: inline-block;
-        width: 210px;
-}
-.BarraBusqueda{
-    width: 500px;
-    padding: 3px 10px;
-    display: inline-block;
-    border: #1877F2 2px solid;
-    border-radius:28px;
-    text-align: left;
-    font-family: "Raleway", Sans-serif;
-    margin-top: 20px;
-    margin-left: 35px;
-    
-
-    
-}
-.ImagenLupa{
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    margin-left: 100px;
-}
-
-.BotonC{
-    width: 50%;
-    padding: 4px 15px;
-    display: block;
-    border: #1877F2 2px solid;
-    border-radius:28px;
-    background-color: #1877F2;
-    font-family: "Raleway", Sans-serif;
+.TextoBanner {
+    z-index: 100;
+    position: absolute;
     color: white;
-    margin-top: 20px;
-    margin-left:100px;
-    cursor: pointer;
-    background-image: linear-gradient(0, #5E9AF4, #5E9AF4);
-    background-size: 0;
-    transition: .8s;
-    text-decoration: none;
-    background-repeat: no-repeat;
-}
-.BotonC:hover{
-    background-size: 100%;
-    color: #fff;
-    text-decoration: none;
-}
-.ImgUser{
-    width: 80px;
-    height: 80px;
-    display: inline-block;
-    margin-left: 140px;
-
-}
-.ImgFono{
-    width: 40px;
-    height: 40px;
-    margin-left: 160px;
-}
-.ImgCorreo{
-    width: 40px;
-    height: 40px;
-    margin-left: 160px;
+    font-size: 30px;
+    font-weight: bold;
+    left: 720px;
+    top: 300px;
+    font-family: "Raleway", Sans-serif;
 }
 .FormContacto{
     width: 400px;
     height: 400px;
-    margin-left: 200px;
+    margin-left: 0px;
     margin-top:100px;
     padding: 16px;
     font-family: "Raleway", Sans-serif;
     background-color: white;
     opacity: 70%;
     border-radius: 25px;
+    
 }
 .TextoT{
     font-family: "Raleway", Sans-serif;
@@ -224,4 +155,80 @@ form input[type="text"]{
     margin-left:90px;
     font-weight: bold;
     
+}
+.ImgUser{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-left: 140px;
+
+}
+.ImgFono{
+    width: 40px;
+    height: 40px;
+    margin-left: 160px;
+}
+.ImgCorreo{
+    width: 40px;
+    height: 40px;
+    margin-left: 160px;
+}
+form{
+    width: 550px;
+    height: 500px;
+    margin: auto;
+    padding: 16px;
+    margin-top: 80px;
+    font-family: "Raleway", Sans-serif;
+}
+form input[type="email"],
+form input[type="password"],
+form input[type="text"]{
+    width: 350px;
+    padding: 3px 10px;
+    display: inline-block;
+    border: #1877F2 2px solid;
+    border-radius:28px;
+    text-align: left;
+    font-family: "Raleway", Sans-serif;
+    margin-left: 300px;
+    margin-top: 7px;
+
+}
+h2{
+    color:white ;
+    margin: 10px 300px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+textarea{
+    display: inline-block;
+    border: #1877F2 2px solid;
+    border-radius:28px;
+    padding: 3px 10px;
+
+}
+.BotonE{
+width: 50%;
+padding: 4px 15px;
+display: block;
+border: #1877F2 2px solid;
+border-radius:28px;
+background-color: #1877F2;
+font-family: "Raleway", Sans-serif;
+color: white;
+margin-top: 20px;
+margin-left:320px;
+cursor: pointer;
+background-image: linear-gradient(0, #5E9AF4, #5E9AF4);
+background-size: 0;
+transition: .8s;
+text-decoration: none;
+background-repeat: no-repeat;
+}
+.BotonE:hover{
+    background-size: 100%;
+    color: #fff;
+    text-decoration: none;
 }
